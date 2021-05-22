@@ -22,6 +22,7 @@ const AddCaptegori = ({ setCategories }) => {
     return (
 
         <form onSubmit={handleSubmit}>
+            <p>{inputValue}</p>
             <input
                 type="text"
                 value={inputValue}
@@ -33,7 +34,7 @@ const AddCaptegori = ({ setCategories }) => {
 }
 
 
-AddCaptegori.prototype = {
+AddCaptegori.propTypes = {
     setCategories: PropTypes.func.isRequired
 }
 

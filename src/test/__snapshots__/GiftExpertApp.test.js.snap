@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Provando GiftExpertApp Renderizando GiftExpertApp 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCaptegori
+    setCategories={[Function]}
+  />
+  <hr />
+</Fragment>
+`;
+
+exports[`Provando GiftExpertApp debe de mostrar una lista de categorias 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCaptegori
+    setCategories={[Function]}
+  />
+  <hr />
+  <GifGrid
+    categories="One Punch"
+    key="One Punch"
+  />
+  <GifGrid
+    categories="Dragonball"
+    key="Dragonball"
+  />
+</Fragment>
+`;

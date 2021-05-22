@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import AddCaptegori from './components/AddCaptegori'
 import GifGrid from './components/GifGrid'
 
-const GiftExpertApp = () => {
+const GiftExpertApp = ({ defaultCategories = [] }) => {
 
-    const [categories, setCategories] = useState(['One Punch'])
+    const [categories, setCategories] = useState(defaultCategories)
 
     return (
         <>
